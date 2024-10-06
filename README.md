@@ -23,7 +23,7 @@ cd Restormer
 ./train.sh Defocus_Deblurring/Options/DefocusDeblur_DualPixel_16bit_Restormer.yml
 ```
 
-**Note:** The above training scripts use 8 GPUs by default. To use any other number of GPUs, modify [Restormer/train.sh](../train.sh) and [DefocusDeblur_Single_8bit_Restormer.yml](Options/DefocusDeblur_Single_8bit_Restormer.yml) 
+**Note:** The above training scripts use 8 GPUs by default. To use any other number of GPUs, [DefocusDeblur_Single_8bit_Restormer.yml](Options/DefocusDeblur_Single_8bit_Restormer.yml) 
 
 
 ## Evaluation
